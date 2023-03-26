@@ -1,0 +1,34 @@
+/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+
+:root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+
+}
+
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* this is to remove the default padding and margin by browser itself */
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--sans);
+}
+
