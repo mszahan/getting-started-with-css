@@ -92,3 +92,62 @@ which is good havit maybe */
 #contact p:last-child {
     margin-top: 3 rem;
 }
+
+
+/* navbar sytle */
+/* when you use percent in fontsize it takes that percent of used 
+previous font size */
+
+nav {
+    font-family: var(--mono);
+    font-size: 80%;
+    padding: 1rem;
+}
+
+nav h1 a {
+    font-family: var(--sans);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* to add different line to the name */
+nav li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+/* to selct part of the class */
+nav [class*="fa-"] {
+    font-size: 150%;
+    color: var(--aqua);
+}
+
+nav h1 [class*="fa-"] {
+    font-size: 100%;
+    color: var(--aqua);
+}
+
+/* making the link block element because it requres to fill
+all the area to clickable */
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+
+}
+
+nav a:hover,
+nav [class*="fa-"]:hover {
+  color: var(--magenta);
+}
