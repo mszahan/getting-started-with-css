@@ -51,7 +51,9 @@ a:hover {
 
 /* intro style  */
 #intro {
-    padding-bottom: 10rem;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 
@@ -86,7 +88,10 @@ which is good havit maybe */
     text-align: center;
     margin: 0 auto;
     padding: 3rem 0;
-    /* background-color: var(--plum); */
+    
+}
+.section-plum {
+    background-color: var(--plum);
 }
 
 #contact p:last-child {
@@ -156,6 +161,9 @@ nav [class*="fa-"]:hover {
     background-color: var(--magenta);
     padding: 0.5rem;
     border-radius: 5px;
+    color: #f7f8fa;
+    font-family: var(--mono);
+    text-decoration: none;
 
 }
 
@@ -167,6 +175,7 @@ nav [class*="fa-"]:hover {
 
 footer {
     text-align: center;
+    padding: 4rem 0;
 }
 
 footer ul {
