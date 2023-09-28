@@ -90,14 +90,21 @@ which is good havit maybe */
     padding: 3rem 0;
     
 }
+
+/* div background collor */
 .section-plum {
     background-color: var(--plum);
 }
+
 
 #contact p:last-child {
     margin-top: 3 rem;
 }
 
+.gradient {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    height: 2px;
+}
 
 /* navbar sytle */
 /* when you use percent in fontsize it takes that percent of used 
