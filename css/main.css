@@ -253,11 +253,16 @@ footer ul {
 }
 
 
-@media (min-width:550px) {
+@media (min-width:800px) {
     article {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         gap: 1rem;
+    }
+
+    #projects{
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     #projects img{
@@ -287,6 +292,9 @@ footer ul {
     #projects .reverse img {
         grid-column: 6/11;
         grid-row: 1/2;
+        border-left: 0px solid var(--aqua);
+        border-right: 1px solid var(--aqua);
+        border-top: 1px solid var(--aqua);
     }
 
     #projects .reverse ul {
